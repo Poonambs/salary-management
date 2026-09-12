@@ -1,0 +1,125 @@
+
+<div class="page">
+
+  <div class="page-header">
+    <h1>Employee Management</h1>
+    <p>Manage employees and salary information</p>
+  </div>
+
+  <div class="filters">
+
+  
+
+    <select (change)="filterByDepartment($event)">
+  <option value="">All Departments</option>
+  <option value="Engineering">Engineering</option>
+  <option value="HR">HR</option>
+  <option value="Finance">Finance</option>
+  <option value="Sales">Sales</option>
+</select>
+<br>
+<select (change)="filterByCountry($event)">
+  <option value="">All Countries</option>
+  <option value="India">India</option>
+  <option value="USA">USA</option>
+  <option value="UK">UK</option>
+</select>
+
+  </div>
+
+  <table>
+
+    <thead>
+      <tr>
+        <th>Employee Code</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Department</th>
+        <th>Job Title</th>
+        <th>Country</th>
+        <th>Current Salary</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr *ngFor="let employee of filteredEmployees">
+
+        <td>{{ employee.employeeCode }}</td>
+
+        <td>
+          {{ employee.firstName }}
+          {{ employee.lastName }}
+        </td>
+
+        <td>{{ employee.email }}</td>
+
+        <td>{{ employee.department }}</td>
+
+        <td>{{ employee.jobTitle }}</td>
+
+        <td>{{ employee.country }}</td>
+
+        <td>{{ getSalary(employee.id) }}</td>
+
+        <td>
+         <button (click)="viewEmployee(employee)">
+  View
+</button>
+        </td>
+
+      </tr>
+
+      <tr *ngIf="employees.length === 0">
+        <td colspan="8" class="empty">
+          No employees found
+        </td>
+      </tr>
+
+    </tbody>
+
+  </table>
+<div class="employee-details" *ngIf="selectedEmployee">
+
+  <h2>Employee Details</h2>
+
+  <p>
+    <strong>Employee Code:</strong>
+    {{ selectedEmployee.employeeCode }}
+  </p>
+
+  <p>
+    <strong>Name:</strong>
+    {{ selectedEmployee.firstName }}
+    {{ selectedEmployee.lastName }}
+  </p>
+
+  <p>
+    <strong>Email:</strong>
+    {{ selectedEmployee.email }}
+  </p>
+
+  <p>
+    <strong>Department:</strong>
+    {{ selectedEmployee.department }}
+  </p>
+
+  <p>
+    <strong>Job Title:</strong>
+    {{ selectedEmployee.jobTitle }}
+  </p>
+
+  <p>
+    <strong>Country:</strong>
+    {{ selectedEmployee.country }}
+  </p>
+
+  <p>
+    <strong>Current Salary:</strong>
+    {{ getSalary(selectedEmployee.id) }}
+  </p>
+
+</div>
+</div>
+

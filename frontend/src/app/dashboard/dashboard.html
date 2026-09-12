@@ -1,0 +1,35 @@
+
+
+
+ 
+  <div class="dashboard">
+
+  <h1>Salary Management Dashboard</h1>
+
+  <p class="subtitle">Employee and salary overview</p>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Total Employees</h3>
+      <p>{{ totalEmployees }}</p>
+    </div>
+
+    <div class="card">
+      <h3>Average Salary</h3>
+      <p>{{ averageSalary | number:'1.0-0' }}</p>
+    </div>
+
+    <div class="card">
+      <h3>Highest Salary</h3>
+      <p>{{ highestSalary | number:'1.0-0' }}</p>
+    </div>
+
+    <div class="card">
+      <h3>Lowest Salary</h3>
+      <p>{{ lowestSalary | number:'1.0-0' }}</p>
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,1024 @@
+Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0)
+Maven home: C:\maven\apache-maven-3.8.5
+Java version: 1.8.0_144, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_144\jre
+Default locale: en_IN, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\maven\apache-maven-3.8.5\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\rajes\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\maven\apache-maven-3.8.5\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\rajes\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\rajes\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\rajes\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.incubyte:salary-management:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:4.1.1: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:4.1.1: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.incubyte:salary-management:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -------------------< com.incubyte:salary-management >-------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.incubyte:salary-management:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.5.0:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <fast default-value="false">${maven.clean.fast}</fast>
+  <fastDir>${maven.clean.fastDir}</fastDir>
+  <fastMode default-value="background">${maven.clean.fastMode}</fastMode>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <force default-value="false">${maven.clean.force}</force>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.5.0:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <propertiesEncoding>UTF-8</propertiesEncoding>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPaths>
+    <path>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </path>
+  </annotationProcessorPaths>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <forceLegacyJavacApi default-value="false">${maven.compiler.forceLegacyJavacApi}</forceLegacyJavacApi>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <moduleVersion default-value="${project.version}">${maven.compiler.moduleVersion}</moduleVersion>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}">${maven.compiler.outputDirectory}</outputDirectory>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">true</parameters>
+  <proc>${maven.compiler.proc}</proc>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <useModuleVersion default-value="true">${maven.compiler.useModuleVersion}</useModuleVersion>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-snapshots (http://oss.sonatype.org/content/repositories/vaadin-snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-releases (http://oss.sonatype.org/content/repositories/vaadin-releases/).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=5508000, ConflictMarker.markTime=3065100, ConflictMarker.nodeCount=267, ConflictIdSorter.graphTime=3623600, ConflictIdSorter.topsortTime=1820100, ConflictIdSorter.conflictIdCount=122, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=52198300, ConflictResolver.conflictItemCount=263, DefaultDependencyCollector.collectTime=854926900, DefaultDependencyCollector.transformTime=73306700}
+[DEBUG] com.incubyte:salary-management:jar:0.0.1-SNAPSHOT
+[DEBUG]    org.springframework.boot:spring-boot-starter-data-jpa:jar:4.1.1:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.5.38:compile (version managed from 1.5.38)
+[DEBUG]                ch.qos.logback:logback-core:jar:1.5.38:compile (version managed from 1.5.38)
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.25.5:compile (version managed from 2.25.5)
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.25.5:compile (version managed from 2.25.5)
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:2.0.18:compile (version managed from 2.0.18)
+[DEBUG]          jakarta.annotation:jakarta.annotation-api:jar:3.0.0:compile (version managed from 3.0.0)
+[DEBUG]          org.yaml:snakeyaml:jar:2.6:compile (version managed from 2.6)
+[DEBUG]       org.springframework.boot:spring-boot-starter-jdbc:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          com.zaxxer:HikariCP:jar:7.0.2:compile (version managed from 7.0.2)
+[DEBUG]             org.slf4j:slf4j-api:jar:2.0.18:compile (version managed from 2.0.17)
+[DEBUG]       org.springframework.boot:spring-boot-data-jpa:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-data-commons:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]             org.springframework.boot:spring-boot-persistence:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]             org.springframework.data:spring-data-commons:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-hibernate:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]             org.springframework.boot:spring-boot-jpa:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]                jakarta.persistence:jakarta.persistence-api:jar:3.2.0:compile (version managed from 3.2.0)
+[DEBUG]             org.hibernate.orm:hibernate-core:jar:7.4.5.Final:compile (version managed from 7.4.5.Final)
+[DEBUG]                jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (version managed from 2.0.1)
+[DEBUG]                org.hibernate.models:hibernate-models:jar:1.1.1:runtime
+[DEBUG]                org.glassfish.jaxb:jaxb-runtime:jar:4.0.9:runtime (version managed from 4.0.7)
+[DEBUG]                   org.glassfish.jaxb:jaxb-core:jar:4.0.9:runtime (version managed from 4.0.9)
+[DEBUG]                      org.eclipse.angus:angus-activation:jar:2.0.3:runtime
+[DEBUG]                      org.glassfish.jaxb:txw2:jar:4.0.9:runtime (version managed from 4.0.9)
+[DEBUG]                      com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime
+[DEBUG]                jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (version managed from 2.0.1)
+[DEBUG]             org.springframework:spring-orm:jar:7.0.9:compile (version managed from 7.0.9)
+[DEBUG]          org.springframework.data:spring-data-jpa:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]             org.springframework:spring-aop:jar:7.0.9:compile (version managed from 7.0.9)
+[DEBUG]             org.springframework:spring-tx:jar:7.0.9:compile (version managed from 7.0.9)
+[DEBUG]             org.springframework:spring-beans:jar:7.0.9:compile (version managed from 7.0.9)
+[DEBUG]             org.antlr:antlr4-runtime:jar:4.13.2:compile
+[DEBUG]          org.springframework:spring-aspects:jar:7.0.9:compile (version managed from 7.0.9)
+[DEBUG]             org.aspectj:aspectjweaver:jar:1.9.25.1:compile (version managed from 1.9.25)
+[DEBUG]       org.springframework.boot:spring-boot-jdbc:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-sql:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-transaction:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework:spring-jdbc:jar:7.0.9:compile (version managed from 7.0.9)
+[DEBUG]    org.springframework.boot:spring-boot-starter-flyway:jar:4.1.1:compile
+[DEBUG]       org.springframework.boot:spring-boot-flyway:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]    org.springframework.boot:spring-boot-starter-validation:jar:4.1.1:compile
+[DEBUG]       org.springframework.boot:spring-boot-validation:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-el:jar:11.0.24:compile (version managed from 11.0.24)
+[DEBUG]          org.hibernate.validator:hibernate-validator:jar:9.1.3.Final:compile (version managed from 9.1.3.Final)
+[DEBUG]             jakarta.validation:jakarta.validation-api:jar:3.1.1:compile (version managed from 3.1.1)
+[DEBUG]             org.jboss.logging:jboss-logging:jar:3.6.3.Final:compile (version managed from 3.6.3.Final)
+[DEBUG]             com.fasterxml:classmate:jar:1.7.3:compile (version managed from 1.7.1)
+[DEBUG]    org.springframework.boot:spring-boot-starter-webmvc:jar:4.1.1:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-jackson:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-jackson:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]       org.springframework.boot:spring-boot-starter-tomcat:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-starter-tomcat-runtime:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]             org.apache.tomcat.embed:tomcat-embed-core:jar:11.0.24:compile (version managed from 11.0.24)
+[DEBUG]             org.apache.tomcat.embed:tomcat-embed-websocket:jar:11.0.24:compile (version managed from 11.0.24)
+[DEBUG]          org.springframework.boot:spring-boot-tomcat:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]       org.springframework.boot:spring-boot-http-converter:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework:spring-web:jar:7.0.9:compile (version managed from 7.0.9)
+[DEBUG]             io.micrometer:micrometer-observation:jar:1.17.1:compile (version managed from 1.16.7)
+[DEBUG]                io.micrometer:micrometer-commons:jar:1.17.1:compile (version managed from 1.17.1)
+[DEBUG]       org.springframework.boot:spring-boot-webmvc:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-servlet:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework:spring-webmvc:jar:7.0.9:compile (version managed from 7.0.9)
+[DEBUG]             org.springframework:spring-expression:jar:7.0.9:compile (version managed from 7.0.9)
+[DEBUG]    org.flywaydb:flyway-database-postgresql:jar:12.4.0:compile
+[DEBUG]       org.flywaydb:flyway-core:jar:12.4.0:compile (version managed from 12.4.0)
+[DEBUG]          tools.jackson.core:jackson-databind:jar:3.1.5:compile (version managed from 3.1.1)
+[DEBUG]             com.fasterxml.jackson.core:jackson-annotations:jar:2.21:compile (version managed from 2.21)
+[DEBUG]             tools.jackson.core:jackson-core:jar:3.1.5:compile (version managed from 3.1.5)
+[DEBUG]    org.springframework.boot:spring-boot-devtools:jar:4.1.1:runtime (optional)
+[DEBUG]       org.springframework.boot:spring-boot:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]          org.springframework:spring-core:jar:7.0.9:compile (version managed from 7.0.9)
+[DEBUG]             commons-logging:commons-logging:jar:1.3.6:compile (version managed from 1.3.5)
+[DEBUG]             org.jspecify:jspecify:jar:1.0.1:compile (version managed from 1.0.0)
+[DEBUG]          org.springframework:spring-context:jar:7.0.9:compile (version managed from 7.0.9)
+[DEBUG]       org.springframework.boot:spring-boot-autoconfigure:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]    org.postgresql:postgresql:jar:42.7.13:runtime
+[DEBUG]       org.checkerframework:checker-qual:jar:3.55.1:runtime
+[DEBUG]    org.projectlombok:lombok:jar:1.18.46:compile (optional)
+[DEBUG]    org.springframework.boot:spring-boot-starter-data-jpa-test:jar:4.1.1:test
+[DEBUG]       org.springframework.boot:spring-boot-starter-test:jar:4.1.1:test (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-test:jar:4.1.1:test (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-test-autoconfigure:jar:4.1.1:test (version managed from 4.1.1)
+[DEBUG]          com.jayway.jsonpath:json-path:jar:2.10.0:test (version managed from 2.10.0)
+[DEBUG]          jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.5:runtime (version managed from 4.0.5)
+[DEBUG]             jakarta.activation:jakarta.activation-api:jar:2.1.4:runtime (version managed from 2.1.4)
+[DEBUG]          net.minidev:json-smart:jar:2.6.0:test (version managed from 2.6.0)
+[DEBUG]             net.minidev:accessors-smart:jar:2.6.0:test
+[DEBUG]                org.ow2.asm:asm:jar:9.7.1:test
+[DEBUG]          org.assertj:assertj-core:jar:3.27.7:test (version managed from 3.27.7)
+[DEBUG]             net.bytebuddy:byte-buddy:jar:1.18.11:runtime (version managed from 1.18.3)
+[DEBUG]          org.awaitility:awaitility:jar:4.3.0:test (version managed from 4.3.0)
+[DEBUG]          org.hamcrest:hamcrest:jar:3.0:test (version managed from 3.0)
+[DEBUG]          org.junit.jupiter:junit-jupiter:jar:6.0.3:test (version managed from 6.0.3)
+[DEBUG]             org.junit.jupiter:junit-jupiter-api:jar:6.0.3:test (version managed from 6.0.3)
+[DEBUG]                org.opentest4j:opentest4j:jar:1.3.0:test
+[DEBUG]                org.junit.platform:junit-platform-commons:jar:6.0.3:test (version managed from 6.0.3)
+[DEBUG]                org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]             org.junit.jupiter:junit-jupiter-params:jar:6.0.3:test (version managed from 6.0.3)
+[DEBUG]             org.junit.jupiter:junit-jupiter-engine:jar:6.0.3:test (version managed from 6.0.3)
+[DEBUG]                org.junit.platform:junit-platform-engine:jar:6.0.3:test (version managed from 6.0.3)
+[DEBUG]          org.mockito:mockito-core:jar:5.23.0:test (version managed from 5.23.0)
+[DEBUG]             net.bytebuddy:byte-buddy-agent:jar:1.18.11:test (version managed from 1.17.7)
+[DEBUG]             org.objenesis:objenesis:jar:3.3:test
+[DEBUG]          org.mockito:mockito-junit-jupiter:jar:5.23.0:test (version managed from 5.23.0)
+[DEBUG]          org.skyscreamer:jsonassert:jar:1.5.3:test (version managed from 1.5.3)
+[DEBUG]             com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]          org.springframework:spring-test:jar:7.0.9:test (version managed from 7.0.9)
+[DEBUG]          org.xmlunit:xmlunit-core:jar:2.11.0:test (version managed from 2.11.0)
+[DEBUG]       org.springframework.boot:spring-boot-starter-jdbc-test:jar:4.1.1:test (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-jdbc-test:jar:4.1.1:test (version managed from 4.1.1)
+[DEBUG]       org.springframework.boot:spring-boot-data-jpa-test:jar:4.1.1:test (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-jpa-test:jar:4.1.1:test (version managed from 4.1.1)
+[DEBUG]    org.springframework.boot:spring-boot-starter-flyway-test:jar:4.1.1:test
+[DEBUG]    org.springframework.boot:spring-boot-starter-validation-test:jar:4.1.1:test
+[DEBUG]    org.springframework.boot:spring-boot-starter-webmvc-test:jar:4.1.1:test
+[DEBUG]       org.springframework.boot:spring-boot-starter-jackson-test:jar:4.1.1:test (version managed from 4.1.1)
+[DEBUG]       org.springframework.boot:spring-boot-webmvc-test:jar:4.1.1:test (version managed from 4.1.1)
+[DEBUG]          org.springframework.boot:spring-boot-web-server:jar:4.1.1:compile (version managed from 4.1.1)
+[DEBUG]       org.springframework.boot:spring-boot-resttestclient:jar:4.1.1:test (version managed from 4.1.1)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.5.0:clean (default-clean) @ salary-management ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=389500, ConflictMarker.markTime=307200, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=182700, ConflictIdSorter.topsortTime=29000, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=297800, ConflictResolver.conflictItemCount=2, DefaultDependencyCollector.collectTime=11546800, DefaultDependencyCollector.transformTime=1390800}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.5.0
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.5.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.5.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.5.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.5.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:3.5.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.5.0, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:3.5.0:clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\rajes\salary-management\backend\salary-management\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fast = false
+[DEBUG]   (f) fastMode = background
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) force = false
+[DEBUG]   (f) outputDirectory = C:\Users\rajes\salary-management\backend\salary-management\target\classes
+[DEBUG]   (f) reportDirectory = C:\Users\rajes\salary-management\backend\salary-management\target\classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7cc9ce8
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\rajes\salary-management\backend\salary-management\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Users\rajes\salary-management\backend\salary-management\target
+[INFO] Deleting file C:\Users\rajes\salary-management\backend\salary-management\target\classes\application.properties
+[INFO] Deleting directory C:\Users\rajes\salary-management\backend\salary-management\target\classes
+[INFO] Deleting directory C:\Users\rajes\salary-management\backend\salary-management\target\generated-sources\annotations
+[INFO] Deleting directory C:\Users\rajes\salary-management\backend\salary-management\target\generated-sources
+[INFO] Deleting file C:\Users\rajes\salary-management\backend\salary-management\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+[INFO] Deleting file C:\Users\rajes\salary-management\backend\salary-management\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] Deleting directory C:\Users\rajes\salary-management\backend\salary-management\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] Deleting directory C:\Users\rajes\salary-management\backend\salary-management\target\maven-status\maven-compiler-plugin\compile
+[INFO] Deleting directory C:\Users\rajes\salary-management\backend\salary-management\target\maven-status\maven-compiler-plugin
+[INFO] Deleting directory C:\Users\rajes\salary-management\backend\salary-management\target\maven-status
+[INFO] Deleting directory C:\Users\rajes\salary-management\backend\salary-management\target
+[DEBUG] Skipping non-existing directory C:\Users\rajes\salary-management\backend\salary-management\target\classes
+[DEBUG] Skipping non-existing directory C:\Users\rajes\salary-management\backend\salary-management\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\rajes\salary-management\backend\salary-management\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.5.0:resources (default-resources) @ salary-management ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=128000, ConflictMarker.markTime=257200, ConflictMarker.nodeCount=12, ConflictIdSorter.graphTime=152000, ConflictIdSorter.topsortTime=71200, ConflictIdSorter.conflictIdCount=9, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=754300, ConflictResolver.conflictItemCount=12, DefaultDependencyCollector.collectTime=85674300, DefaultDependencyCollector.transformTime=1541900}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.5.0
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.5.0:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       org.codehaus.plexus:plexus-build-api:jar:1.2.0:compile
+[DEBUG]          javax.inject:javax.inject:jar:1:compile
+[DEBUG]          org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]          org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.9.0.M4:compile (version managed from default)
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.29:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.6.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.5.0
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.5.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-build-api:jar:1.2.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.29
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.6.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.5.0:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.5.0, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.5.0:resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (s) delimiters = [@]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\rajes\salary-management\backend\salary-management\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.incubyte:salary-management:0.0.1-SNAPSHOT @ C:\Users\rajes\salary-management\backend\salary-management\pom.xml
+[DEBUG]   (f) propertiesEncoding = UTF-8
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: true, FileSet {directory: C:\Users\rajes\salary-management\backend\salary-management\src\main\resources, PatternSet [includes: {**/application*.yml, **/application*.yaml, **/application*.properties}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\rajes\salary-management\backend\salary-management\src\main\resources, PatternSet [includes: {}, excludes: {**/application*.yml, **/application*.yaml, **/application*.properties}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7cc9ce8
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = false
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] activemq.version: 6.2.9
+[DEBUG] angus-mail.version: 2.0.5
+[DEBUG] artemis.version: 2.53.0
+[DEBUG] aspectj.version: 1.9.25.1
+[DEBUG] assertj.version: 3.27.7
+[DEBUG] awaitility.version: 4.3.0
+[DEBUG] awt.toolkit: sun.awt.windows.WToolkit
+[DEBUG] brave.version: 6.3.1
+[DEBUG] build-helper-maven-plugin.version: 3.6.1
+[DEBUG] byte-buddy.version: 1.18.11
+[DEBUG] cache2k.version: 2.6.1.Final
+[DEBUG] caffeine.version: 3.2.4
+[DEBUG] cassandra-driver.version: 4.19.3
+[DEBUG] classmate.version: 1.7.3
+[DEBUG] classworlds.conf: C:\maven\apache-maven-3.8.5\bin\m2.conf
+[DEBUG] commons-codec.version: 1.21.0
+[DEBUG] commons-dbcp2.version: 2.14.0
+[DEBUG] commons-lang3.version: 3.20.0
+[DEBUG] commons-logging.version: 1.3.6
+[DEBUG] commons-pool.version: 1.6
+[DEBUG] commons-pool2.version: 2.13.1
+[DEBUG] couchbase-client.version: 3.11.3
+[DEBUG] crac.version: 1.5.0
+[DEBUG] cyclonedx-maven-plugin.version: 2.9.3
+[DEBUG] db2-jdbc.version: 12.1.5.0
+[DEBUG] dependency-management-plugin.version: 1.1.7
+[DEBUG] derby.version: 10.16.1.1
+[DEBUG] ehcache3.version: 3.12.0
+[DEBUG] elasticsearch-client.version: 9.4.5
+[DEBUG] env.=C:: C:\Users\rajes\salary-management\backend\salary-management
+[DEBUG] env.=EXITCODE: 00000000
+[DEBUG] env.ALLUSERSPROFILE: C:\ProgramData
+[DEBUG] env.APPDATA: C:\Users\rajes\AppData\Roaming
+[DEBUG] env.CHOCOLATEYINSTALL: C:\ProgramData\chocolatey
+[DEBUG] env.CHOCOLATEYLASTPATHUPDATE: 133589374136430023
+[DEBUG] env.CLASSWORLDS_JAR: "C:\maven\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"
+[DEBUG] env.CLASSWORLDS_LAUNCHER: org.codehaus.plexus.classworlds.launcher.Launcher
+[DEBUG] env.COMMONPROGRAMFILES: C:\Program Files\Common Files
+[DEBUG] env.COMMONPROGRAMFILES(X86): C:\Program Files (x86)\Common Files
+[DEBUG] env.COMMONPROGRAMW6432: C:\Program Files\Common Files
+[DEBUG] env.COMPUTERNAME: DESKTOP-H9F9925
+[DEBUG] env.COMSPEC: C:\WINDOWS\system32\cmd.exe
+[DEBUG] env.DRIVERDATA: C:\Windows\System32\Drivers\DriverData
+[DEBUG] env.ERROR_CODE: 0
+[DEBUG] env.EXEC_DIR: C:\Users\rajes\salary-management\backend\salary-management
+[DEBUG] env.HOMEDRIVE: C:
+[DEBUG] env.HOMEPATH: \Users\rajes
+[DEBUG] env.JAVACMD: C:\Program Files\Java\jdk1.8.0_144\bin\java.exe
+[DEBUG] env.JAVA_HOME: C:\Program Files\Java\jdk1.8.0_144
+[DEBUG] env.JVMCONFIG: \.mvn\jvm.config
+[DEBUG] env.LOCALAPPDATA: C:\Users\rajes\AppData\Local
+[DEBUG] env.LOGONSERVER: \\DESKTOP-H9F9925
+[DEBUG] env.MAVEN_CMD_LINE_ARGS: clean compile -X
+[DEBUG] env.MAVEN_HOME: C:\maven\apache-maven-3.8.5
+[DEBUG] env.MAVEN_PROJECTBASEDIR: C:\Users\rajes\salary-management\backend\salary-management
+[DEBUG] env.MVN_HOME: C:\maven\apache-maven-3.8.5
+[DEBUG] env.NUMBER_OF_PROCESSORS: 8
+[DEBUG] env.ONEDRIVE: C:\Users\rajes\OneDrive
+[DEBUG] env.OS: Windows_NT
+[DEBUG] env.PATH: C:\Python312\Scripts\;C:\Python312\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\maven\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\mavenjenkins\apache-maven-3.9.6\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rajes\AppData\Local\Microsoft\WindowsApps;C:\Users\rajes\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rajes\AppData\Roaming\npm
+[DEBUG] env.PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+[DEBUG] env.PROCESSOR_ARCHITECTURE: AMD64
+[DEBUG] env.PROCESSOR_IDENTIFIER: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+[DEBUG] env.PROCESSOR_LEVEL: 6
+[DEBUG] env.PROCESSOR_REVISION: 8c01
+[DEBUG] env.PROGRAMDATA: C:\ProgramData
+[DEBUG] env.PROGRAMFILES: C:\Program Files
+[DEBUG] env.PROGRAMFILES(X86): C:\Program Files (x86)
+[DEBUG] env.PROGRAMW6432: C:\Program Files
+[DEBUG] env.PROMPT: $P$G
+[DEBUG] env.PSMODULEPATH: C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+[DEBUG] env.PUBLIC: C:\Users\Public
+[DEBUG] env.SYSTEMDRIVE: C:
+[DEBUG] env.SYSTEMROOT: C:\WINDOWS
+[DEBUG] env.TEMP: C:\Users\rajes\AppData\Local\Temp
+[DEBUG] env.TMP: C:\Users\rajes\AppData\Local\Temp
+[DEBUG] env.USERDOMAIN: DESKTOP-H9F9925
+[DEBUG] env.USERDOMAIN_ROAMINGPROFILE: DESKTOP-H9F9925
+[DEBUG] env.USERNAME: rajes
+[DEBUG] env.USERPROFILE: C:\Users\rajes
+[DEBUG] env.WDIR: C:\Users\rajes\salary-management\backend\salary-management
+[DEBUG] env.WINDIR: C:\WINDOWS
+[DEBUG] env.ZES_ENABLE_SYSMAN: 1
+[DEBUG] env.__MVNW_CMD__: C:\Users\rajes/.m2/wrapper/dists/apache-maven-3.9.16/0daed3be3ebd1c706f0e69e8b07c6b73f5cc4ea3dfce72a8d0ec2e849ca2ddb0/bin/mvn.cmd
+[DEBUG] file.encoding: Cp1252
+[DEBUG] file.encoding.pkg: sun.io
+[DEBUG] file.separator: \
+[DEBUG] flyway.version: 12.4.0
+[DEBUG] freemarker.version: 2.3.34
+[DEBUG] git-commit-id-maven-plugin.version: 9.2.0
+[DEBUG] glassfish-jaxb.version: 4.0.9
+[DEBUG] glassfish-jstl.version: 3.0.1
+[DEBUG] graphql-java.version: 25.0
+[DEBUG] groovy.version: 5.0.8
+[DEBUG] grpc-java.version: 1.83.1
+[DEBUG] grpc-kotlin.version: 1.5.0
+[DEBUG] gson.version: 2.13.2
+[DEBUG] h2.version: 2.4.240
+[DEBUG] hamcrest.version: 3.0
+[DEBUG] hazelcast.version: 5.5.0
+[DEBUG] hibernate-validator.version: 9.1.3.Final
+[DEBUG] hibernate.version: 7.4.5.Final
+[DEBUG] hikaricp.version: 7.0.2
+[DEBUG] hsqldb.version: 2.7.3
+[DEBUG] htmlunit.version: 4.21.0
+[DEBUG] httpasyncclient.version: 4.1.5
+[DEBUG] httpclient5.version: 5.6.4
+[DEBUG] httpcore.version: 4.4.16
+[DEBUG] httpcore5.version: 5.4.3
+[DEBUG] infinispan.version: 16.1.4
+[DEBUG] influxdb-java.version: 2.25
+[DEBUG] jackson-2-bom.version: 2.21.5
+[DEBUG] jackson-bom.version: 3.1.5
+[DEBUG] jakarta-activation.version: 2.1.4
+[DEBUG] jakarta-annotation.version: 3.0.0
+[DEBUG] jakarta-inject.version: 2.0.1
+[DEBUG] jakarta-jms.version: 3.1.0
+[DEBUG] jakarta-json-bind.version: 3.0.2
+[DEBUG] jakarta-json.version: 2.1.3
+[DEBUG] jakarta-mail.version: 2.1.5
+[DEBUG] jakarta-management.version: 1.1.4
+[DEBUG] jakarta-persistence.version: 3.2.0
+[DEBUG] jakarta-servlet-jsp-jstl.version: 3.0.2
+[DEBUG] jakarta-servlet.version: 6.1.0
+[DEBUG] jakarta-transaction.version: 2.0.1
+[DEBUG] jakarta-validation.version: 3.1.1
+[DEBUG] jakarta-websocket.version: 2.2.0
+[DEBUG] jakarta-ws-rs.version: 4.0.0
+[DEBUG] jakarta-xml-bind.version: 4.0.5
+[DEBUG] jakarta-xml-soap.version: 3.0.2
+[DEBUG] jakarta-xml-ws.version: 4.0.3
+[DEBUG] janino.version: 3.1.12
+[DEBUG] java.awt.graphicsenv: sun.awt.Win32GraphicsEnvironment
+[DEBUG] java.awt.printerjob: sun.awt.windows.WPrinterJob
+[DEBUG] java.class.path: C:\maven\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar
+[DEBUG] java.class.version: 52.0
+[DEBUG] java.endorsed.dirs: C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed
+[DEBUG] java.ext.dirs: C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+[DEBUG] java.home: C:\Program Files\Java\jdk1.8.0_144\jre
+[DEBUG] java.io.tmpdir: C:\Users\rajes\AppData\Local\Temp\
+[DEBUG] java.library.path: C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\maven\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\mavenjenkins\apache-maven-3.9.6\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rajes\AppData\Local\Microsoft\WindowsApps;C:\Users\rajes\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rajes\AppData\Roaming\npm;.
+[DEBUG] java.runtime.name: Java(TM) SE Runtime Environment
+[DEBUG] java.runtime.version: 1.8.0_144-b01
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 1.8
+[DEBUG] java.vendor: Oracle Corporation
+[DEBUG] java.vendor.url: http://java.oracle.com/
+[DEBUG] java.vendor.url.bug: http://bugreport.sun.com/bugreport/
+[DEBUG] java.version: 1.8.0_144
+[DEBUG] java.vm.info: mixed mode
+[DEBUG] java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 1.8
+[DEBUG] java.vm.vendor: Oracle Corporation
+[DEBUG] java.vm.version: 25.144-b01
+[DEBUG] javax-cache.version: 1.1.1
+[DEBUG] javax-money.version: 1.1
+[DEBUG] jaxen.version: 2.0.6
+[DEBUG] jaybird.version: 6.0.5
+[DEBUG] jboss-logging.version: 3.6.3.Final
+[DEBUG] jdom2.version: 2.0.6.1
+[DEBUG] jedis.version: 7.4.1
+[DEBUG] jersey.version: 4.0.2
+[DEBUG] jetty-reactive-httpclient.version: 4.1.5
+[DEBUG] jetty.version: 12.1.12
+[DEBUG] jmustache.version: 1.16
+[DEBUG] jooq.version: 3.21.7
+[DEBUG] json-path.version: 2.10.0
+[DEBUG] json-smart.version: 2.6.0
+[DEBUG] jsonassert.version: 1.5.3
+[DEBUG] jspecify.version: 1.0.1
+[DEBUG] jtds.version: 1.3.1
+[DEBUG] junit-jupiter.version: 6.0.3
+[DEBUG] junit.version: 4.13.2
+[DEBUG] kafka.version: 4.2.1
+[DEBUG] kotlin-coroutines.version: 1.10.2
+[DEBUG] kotlin-serialization.version: 1.11.0
+[DEBUG] kotlin.version: 2.3.21
+[DEBUG] lettuce.version: 7.5.2.RELEASE
+[DEBUG] library.jansi.path: C:\maven\apache-maven-3.8.5\lib\jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] liquibase.version: 5.0.3
+[DEBUG] log4j2.version: 2.25.5
+[DEBUG] logback.version: 1.5.38
+[DEBUG] lombok.version: 1.18.46
+[DEBUG] mariadb.version: 3.5.10
+[DEBUG] maven-antrun-plugin.version: 3.2.0
+[DEBUG] maven-assembly-plugin.version: 3.8.0
+[DEBUG] maven-clean-plugin.version: 3.5.0
+[DEBUG] maven-compiler-plugin.version: 3.15.0
+[DEBUG] maven-dependency-plugin.version: 3.10.0
+[DEBUG] maven-deploy-plugin.version: 3.1.4
+[DEBUG] maven-enforcer-plugin.version: 3.6.3
+[DEBUG] maven-failsafe-plugin.version: 3.5.6
+[DEBUG] maven-help-plugin.version: 3.5.2
+[DEBUG] maven-install-plugin.version: 3.1.4
+[DEBUG] maven-invoker-plugin.version: 3.9.1
+[DEBUG] maven-jar-plugin.version: 3.5.1
+[DEBUG] maven-javadoc-plugin.version: 3.12.0
+[DEBUG] maven-resources-plugin.version: 3.5.0
+[DEBUG] maven-shade-plugin.version: 3.6.2
+[DEBUG] maven-source-plugin.version: 3.4.0
+[DEBUG] maven-surefire-plugin.version: 3.5.6
+[DEBUG] maven-war-plugin.version: 3.5.1
+[DEBUG] maven.build.timestamp: 2026-09-12T04:01:28Z
+[DEBUG] maven.build.version: Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0)
+[DEBUG] maven.compiler.release: 21
+[DEBUG] maven.conf: C:\maven\apache-maven-3.8.5/conf
+[DEBUG] maven.home: C:\maven\apache-maven-3.8.5
+[DEBUG] maven.multiModuleProjectDirectory: C:\Users\rajes\salary-management\backend\salary-management
+[DEBUG] maven.version: 3.8.5
+[DEBUG] micrometer-tracing.version: 1.7.1
+[DEBUG] micrometer.version: 1.17.1
+[DEBUG] mockito.version: 5.23.0
+[DEBUG] mongodb.version: 5.8.1
+[DEBUG] mssql-jdbc.version: 13.4.0.jre11
+[DEBUG] mysql.version: 9.7.0
+[DEBUG] native-build-tools-plugin.version: 1.1.8
+[DEBUG] nekohtml.version: 1.9.22
+[DEBUG] neo4j-java-driver.version: 6.1.0
+[DEBUG] netty.version: 4.2.17.Final
+[DEBUG] opentelemetry.version: 1.62.0
+[DEBUG] oracle-database.version: 23.26.3.0.0
+[DEBUG] oracle-r2dbc.version: 1.3.0
+[DEBUG] os.arch: amd64
+[DEBUG] os.name: Windows 10
+[DEBUG] os.version: 10.0
+[DEBUG] path.separator: ;
+[DEBUG] pooled-jms.version: 3.2.3
+[DEBUG] postgresql.version: 42.7.13
+[DEBUG] project.baseUri: file:/C:/Users/rajes/salary-management/backend/salary-management/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] project.reporting.outputEncoding: UTF-8
+[DEBUG] prometheus-client.version: 1.7.0
+[DEBUG] prometheus-simpleclient.version: 0.16.0
+[DEBUG] protobuf-java.version: 4.35.1
+[DEBUG] protobuf-maven-plugin.version: 5.1.8
+[DEBUG] pulsar.version: 4.2.4
+[DEBUG] qpid-protonj2.version: 1.1.0
+[DEBUG] quartz.version: 2.5.2
+[DEBUG] querydsl.version: 5.1.0
+[DEBUG] r2dbc-h2.version: 1.1.0.RELEASE
+[DEBUG] r2dbc-mariadb.version: 1.4.1
+[DEBUG] r2dbc-mssql.version: 1.0.5.RELEASE
+[DEBUG] r2dbc-mysql.version: 1.4.3
+[DEBUG] r2dbc-pool.version: 1.0.2.RELEASE
+[DEBUG] r2dbc-postgresql.version: 1.1.2.RELEASE
+[DEBUG] r2dbc-proxy.version: 1.1.6.RELEASE
+[DEBUG] r2dbc-spi.version: 1.0.0.RELEASE
+[DEBUG] rabbit-amqp-client.version: 5.30.0
+[DEBUG] rabbit-stream-client.version: 1.6.0
+[DEBUG] reactive-streams.version: 1.0.4
+[DEBUG] reactor-bom.version: 2025.0.7
+[DEBUG] resource.delimiter: @
+[DEBUG] rsocket.version: 1.1.5
+[DEBUG] rxjava3.version: 3.1.12
+[DEBUG] saaj-impl.version: 3.0.6
+[DEBUG] selenium-htmlunit.version: 4.43.0
+[DEBUG] selenium.version: 4.43.0
+[DEBUG] sendgrid.version: 4.10.3
+[DEBUG] slf4j.version: 2.0.18
+[DEBUG] snakeyaml.version: 2.6
+[DEBUG] spring-amqp.version: 4.1.1
+[DEBUG] spring-batch.version: 6.0.5
+[DEBUG] spring-boot.run.main-class: ${start-class}
+[DEBUG] spring-data-bom.version: 2026.0.1
+[DEBUG] spring-framework.version: 7.0.9
+[DEBUG] spring-graphql.version: 2.0.5
+[DEBUG] spring-grpc.version: 1.1.1
+[DEBUG] spring-hateoas.version: 3.1.2
+[DEBUG] spring-integration.version: 7.1.1
+[DEBUG] spring-kafka.version: 4.1.1
+[DEBUG] spring-ldap.version: 4.1.1
+[DEBUG] spring-pulsar.version: 2.0.7
+[DEBUG] spring-restdocs.version: 4.0.1
+[DEBUG] spring-security.version: 7.1.1
+[DEBUG] spring-session.version: 4.1.1
+[DEBUG] spring-ws.version: 5.0.2
+[DEBUG] sqlite-jdbc.version: 3.53.2.1
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.class.path: C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes
+[DEBUG] sun.boot.library.path: C:\Program Files\Java\jdk1.8.0_144\jre\bin
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.cpu.isalist: amd64
+[DEBUG] sun.desktop: windows
+[DEBUG] sun.io.unicode.encoding: UnicodeLittle
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher clean compile -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: Cp1252
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] sun.os.patch.level: 
+[DEBUG] testcontainers-redis-module.version: 2.2.4
+[DEBUG] testcontainers.version: 2.0.5
+[DEBUG] thymeleaf-extras-data-attribute.version: 2.0.1
+[DEBUG] thymeleaf-extras-springsecurity.version: 3.1.5.RELEASE
+[DEBUG] thymeleaf-layout-dialect.version: 4.0.1
+[DEBUG] thymeleaf.version: 3.1.5.RELEASE
+[DEBUG] tomcat.version: 11.0.24
+[DEBUG] unboundid-ldapsdk.version: 7.0.5
+[DEBUG] user.country: IN
+[DEBUG] user.dir: C:\Users\rajes\salary-management\backend\salary-management
+[DEBUG] user.home: C:\Users\rajes
+[DEBUG] user.language: en
+[DEBUG] user.name: rajes
+[DEBUG] user.script: 
+[DEBUG] user.timezone: 
+[DEBUG] user.variant: 
+[DEBUG] versions-maven-plugin.version: 2.21.0
+[DEBUG] vibur.version: 26.0
+[DEBUG] webjars-locator-core.version: 0.59
+[DEBUG] webjars-locator-lite.version: 1.1.4
+[DEBUG] wsdl4j.version: 1.6.3
+[DEBUG] xml-maven-plugin.version: 1.2.1
+[DEBUG] xmlunit2.version: 2.11.0
+[DEBUG] yasson.version: 3.0.5
+[DEBUG] zipkin-reporter.version: 3.5.3
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory C:\Users\rajes\salary-management\backend\salary-management\src\main\resources
+excludes []
+includes [**/application*.yml, **/application*.yaml, **/application*.properties]
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[DEBUG] Copying file application.properties
+[DEBUG] file application.properties has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'application.properties'.
+[DEBUG] filtering C:\Users\rajes\salary-management\backend\salary-management\src\main\resources\application.properties to C:\Users\rajes\salary-management\backend\salary-management\target\classes\application.properties
+[DEBUG] resource with targetPath null
+directory C:\Users\rajes\salary-management\backend\salary-management\src\main\resources
+excludes [**/application*.yml, **/application*.yaml, **/application*.properties]
+includes []
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.15.0:compile (default-compile) @ salary-management ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=129400, ConflictMarker.markTime=98700, ConflictMarker.nodeCount=23, ConflictIdSorter.graphTime=41100, ConflictIdSorter.topsortTime=60700, ConflictIdSorter.conflictIdCount=14, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=31924700, ConflictResolver.conflictItemCount=23, DefaultDependencyCollector.collectTime=139943200, DefaultDependencyCollector.transformTime=32344100}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.15.0
+[DEBUG]    org.ow2.asm:asm:jar:9.9.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.4.2:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:1.5.2:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.2.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.16.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.16.2:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.codehaus.plexus:plexus-xml:jar:3.0.1:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.16.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.15.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.15.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.15.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.15.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.9.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.4.2
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.5.2
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.2.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.16.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.16.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:3.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.16.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.15.0, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile' with basic configurator -->
+[DEBUG]   (s) groupId = org.projectlombok
+[DEBUG]   (s) artifactId = lombok
+[DEBUG]   (f) annotationProcessorPaths = [org.projectlombok:lombok.jar]
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = C:\Users\rajes\salary-management\backend\salary-management
+[DEBUG]   (f) buildDirectory = C:\Users\rajes\salary-management\backend\salary-management\target
+[DEBUG]   (f) compilePath = [C:\Users\rajes\salary-management\backend\salary-management\target\classes, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\4.1.1\spring-boot-starter-data-jpa-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter\4.1.1\spring-boot-starter-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-logging\4.1.1\spring-boot-starter-logging-4.1.1.jar, C:\Users\rajes\.m2\repository\ch\qos\logback\logback-classic\1.5.38\logback-classic-1.5.38.jar, C:\Users\rajes\.m2\repository\ch\qos\logback\logback-core\1.5.38\logback-core-1.5.38.jar, C:\Users\rajes\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.25.5\log4j-to-slf4j-2.25.5.jar, C:\Users\rajes\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.5\log4j-api-2.25.5.jar, C:\Users\rajes\.m2\repository\org\slf4j\jul-to-slf4j\2.0.18\jul-to-slf4j-2.0.18.jar, C:\Users\rajes\.m2\repository\jakarta\annotation\jakarta.annotation-api\3.0.0\jakarta.annotation-api-3.0.0.jar, C:\Users\rajes\.m2\repository\org\yaml\snakeyaml\2.6\snakeyaml-2.6.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\4.1.1\spring-boot-starter-jdbc-4.1.1.jar, C:\Users\rajes\.m2\repository\com\zaxxer\HikariCP\7.0.2\HikariCP-7.0.2.jar, C:\Users\rajes\.m2\repository\org\slf4j\slf4j-api\2.0.18\slf4j-api-2.0.18.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-data-jpa\4.1.1\spring-boot-data-jpa-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-data-commons\4.1.1\spring-boot-data-commons-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-persistence\4.1.1\spring-boot-persistence-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\data\spring-data-commons\4.1.1\spring-data-commons-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-hibernate\4.1.1\spring-boot-hibernate-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-jpa\4.1.1\spring-boot-jpa-4.1.1.jar, C:\Users\rajes\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.2.0\jakarta.persistence-api-3.2.0.jar, C:\Users\rajes\.m2\repository\org\hibernate\orm\hibernate-core\7.4.5.Final\hibernate-core-7.4.5.Final.jar, C:\Users\rajes\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar, C:\Users\rajes\.m2\repository\org\springframework\spring-orm\7.0.9\spring-orm-7.0.9.jar, C:\Users\rajes\.m2\repository\org\springframework\data\spring-data-jpa\4.1.1\spring-data-jpa-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\spring-aop\7.0.9\spring-aop-7.0.9.jar, C:\Users\rajes\.m2\repository\org\springframework\spring-tx\7.0.9\spring-tx-7.0.9.jar, C:\Users\rajes\.m2\repository\org\springframework\spring-beans\7.0.9\spring-beans-7.0.9.jar, C:\Users\rajes\.m2\repository\org\antlr\antlr4-runtime\4.13.2\antlr4-runtime-4.13.2.jar, C:\Users\rajes\.m2\repository\org\springframework\spring-aspects\7.0.9\spring-aspects-7.0.9.jar, C:\Users\rajes\.m2\repository\org\aspectj\aspectjweaver\1.9.25.1\aspectjweaver-1.9.25.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-jdbc\4.1.1\spring-boot-jdbc-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-sql\4.1.1\spring-boot-sql-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-transaction\4.1.1\spring-boot-transaction-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\spring-jdbc\7.0.9\spring-jdbc-7.0.9.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-flyway\4.1.1\spring-boot-starter-flyway-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-flyway\4.1.1\spring-boot-flyway-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-validation\4.1.1\spring-boot-starter-validation-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-validation\4.1.1\spring-boot-validation-4.1.1.jar, C:\Users\rajes\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\11.0.24\tomcat-embed-el-11.0.24.jar, C:\Users\rajes\.m2\repository\org\hibernate\validator\hibernate-validator\9.1.3.Final\hibernate-validator-9.1.3.Final.jar, C:\Users\rajes\.m2\repository\jakarta\validation\jakarta.validation-api\3.1.1\jakarta.validation-api-3.1.1.jar, C:\Users\rajes\.m2\repository\org\jboss\logging\jboss-logging\3.6.3.Final\jboss-logging-3.6.3.Final.jar, C:\Users\rajes\.m2\repository\com\fasterxml\classmate\1.7.3\classmate-1.7.3.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-webmvc\4.1.1\spring-boot-starter-webmvc-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-jackson\4.1.1\spring-boot-starter-jackson-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-jackson\4.1.1\spring-boot-jackson-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\4.1.1\spring-boot-starter-tomcat-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat-runtime\4.1.1\spring-boot-starter-tomcat-runtime-4.1.1.jar, C:\Users\rajes\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\11.0.24\tomcat-embed-core-11.0.24.jar, C:\Users\rajes\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\11.0.24\tomcat-embed-websocket-11.0.24.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-tomcat\4.1.1\spring-boot-tomcat-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-http-converter\4.1.1\spring-boot-http-converter-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\spring-web\7.0.9\spring-web-7.0.9.jar, C:\Users\rajes\.m2\repository\io\micrometer\micrometer-observation\1.17.1\micrometer-observation-1.17.1.jar, C:\Users\rajes\.m2\repository\io\micrometer\micrometer-commons\1.17.1\micrometer-commons-1.17.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-webmvc\4.1.1\spring-boot-webmvc-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-servlet\4.1.1\spring-boot-servlet-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\spring-webmvc\7.0.9\spring-webmvc-7.0.9.jar, C:\Users\rajes\.m2\repository\org\springframework\spring-expression\7.0.9\spring-expression-7.0.9.jar, C:\Users\rajes\.m2\repository\org\flywaydb\flyway-database-postgresql\12.4.0\flyway-database-postgresql-12.4.0.jar, C:\Users\rajes\.m2\repository\org\flywaydb\flyway-core\12.4.0\flyway-core-12.4.0.jar, C:\Users\rajes\.m2\repository\tools\jackson\core\jackson-databind\3.1.5\jackson-databind-3.1.5.jar, C:\Users\rajes\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar, C:\Users\rajes\.m2\repository\tools\jackson\core\jackson-core\3.1.5\jackson-core-3.1.5.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot\4.1.1\spring-boot-4.1.1.jar, C:\Users\rajes\.m2\repository\org\springframework\spring-core\7.0.9\spring-core-7.0.9.jar, C:\Users\rajes\.m2\repository\commons-logging\commons-logging\1.3.6\commons-logging-1.3.6.jar, C:\Users\rajes\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar, C:\Users\rajes\.m2\repository\org\springframework\spring-context\7.0.9\spring-context-7.0.9.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\4.1.1\spring-boot-autoconfigure-4.1.1.jar, C:\Users\rajes\.m2\repository\org\projectlombok\lombok\1.18.46\lombok-1.18.46.jar, C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-web-server\4.1.1\spring-boot-web-server-4.1.1.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\rajes\salary-management\backend\salary-management\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) forceLegacyJavacApi = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\rajes\salary-management\backend\salary-management\target\generated-sources\annotations
+[DEBUG]   (f) moduleVersion = 0.0.1-SNAPSHOT
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\rajes\salary-management\backend\salary-management\target\classes
+[DEBUG]   (f) parameters = true
+[DEBUG]   (f) project = MavenProject: com.incubyte:salary-management:0.0.1-SNAPSHOT @ C:\Users\rajes\salary-management\backend\salary-management\pom.xml
+[DEBUG]   (f) projectArtifact = com.incubyte:salary-management:jar:0.0.1-SNAPSHOT
+[DEBUG]   (s) release = 21
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7cc9ce8
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) useModuleVersion = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=62800, ConflictMarker.markTime=65500, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=10300, ConflictIdSorter.topsortTime=24400, ConflictIdSorter.conflictIdCount=1, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=120000, ConflictResolver.conflictItemCount=1, DefaultDependencyCollector.collectTime=4682400, DefaultDependencyCollector.transformTime=326100}
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] 	Stale source detected: C:\Users\rajes\salary-management\backend\salary-management\src\main\java\com\incubyte\salary_management\SalaryManagementApplication.java
+[INFO] 	Input tree files (+): C:\Users\rajes\salary-management\backend\salary-management\src\main\java\com\incubyte\salary_management\SalaryManagementApplication.java
+[INFO] Recompiling the module because of changed source code.
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\rajes\salary-management\backend\salary-management\target\classes
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\4.1.1\spring-boot-starter-data-jpa-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter\4.1.1\spring-boot-starter-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-logging\4.1.1\spring-boot-starter-logging-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\ch\qos\logback\logback-classic\1.5.38\logback-classic-1.5.38.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\ch\qos\logback\logback-core\1.5.38\logback-core-1.5.38.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.25.5\log4j-to-slf4j-2.25.5.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.5\log4j-api-2.25.5.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\slf4j\jul-to-slf4j\2.0.18\jul-to-slf4j-2.0.18.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\jakarta\annotation\jakarta.annotation-api\3.0.0\jakarta.annotation-api-3.0.0.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\yaml\snakeyaml\2.6\snakeyaml-2.6.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\4.1.1\spring-boot-starter-jdbc-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\com\zaxxer\HikariCP\7.0.2\HikariCP-7.0.2.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\slf4j\slf4j-api\2.0.18\slf4j-api-2.0.18.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-data-jpa\4.1.1\spring-boot-data-jpa-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-data-commons\4.1.1\spring-boot-data-commons-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-persistence\4.1.1\spring-boot-persistence-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\data\spring-data-commons\4.1.1\spring-data-commons-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-hibernate\4.1.1\spring-boot-hibernate-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-jpa\4.1.1\spring-boot-jpa-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.2.0\jakarta.persistence-api-3.2.0.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\hibernate\orm\hibernate-core\7.4.5.Final\hibernate-core-7.4.5.Final.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\spring-orm\7.0.9\spring-orm-7.0.9.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\data\spring-data-jpa\4.1.1\spring-data-jpa-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\spring-aop\7.0.9\spring-aop-7.0.9.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\spring-tx\7.0.9\spring-tx-7.0.9.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\spring-beans\7.0.9\spring-beans-7.0.9.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\antlr\antlr4-runtime\4.13.2\antlr4-runtime-4.13.2.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\spring-aspects\7.0.9\spring-aspects-7.0.9.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\aspectj\aspectjweaver\1.9.25.1\aspectjweaver-1.9.25.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-jdbc\4.1.1\spring-boot-jdbc-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-sql\4.1.1\spring-boot-sql-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-transaction\4.1.1\spring-boot-transaction-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\spring-jdbc\7.0.9\spring-jdbc-7.0.9.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-flyway\4.1.1\spring-boot-starter-flyway-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-flyway\4.1.1\spring-boot-flyway-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-validation\4.1.1\spring-boot-starter-validation-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-validation\4.1.1\spring-boot-validation-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\11.0.24\tomcat-embed-el-11.0.24.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\hibernate\validator\hibernate-validator\9.1.3.Final\hibernate-validator-9.1.3.Final.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\jakarta\validation\jakarta.validation-api\3.1.1\jakarta.validation-api-3.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\jboss\logging\jboss-logging\3.6.3.Final\jboss-logging-3.6.3.Final.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\com\fasterxml\classmate\1.7.3\classmate-1.7.3.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-webmvc\4.1.1\spring-boot-starter-webmvc-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-jackson\4.1.1\spring-boot-starter-jackson-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-jackson\4.1.1\spring-boot-jackson-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\4.1.1\spring-boot-starter-tomcat-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat-runtime\4.1.1\spring-boot-starter-tomcat-runtime-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\11.0.24\tomcat-embed-core-11.0.24.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\11.0.24\tomcat-embed-websocket-11.0.24.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-tomcat\4.1.1\spring-boot-tomcat-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-http-converter\4.1.1\spring-boot-http-converter-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\spring-web\7.0.9\spring-web-7.0.9.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\io\micrometer\micrometer-observation\1.17.1\micrometer-observation-1.17.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\io\micrometer\micrometer-commons\1.17.1\micrometer-commons-1.17.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-webmvc\4.1.1\spring-boot-webmvc-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-servlet\4.1.1\spring-boot-servlet-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\spring-webmvc\7.0.9\spring-webmvc-7.0.9.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\spring-expression\7.0.9\spring-expression-7.0.9.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\flywaydb\flyway-database-postgresql\12.4.0\flyway-database-postgresql-12.4.0.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\flywaydb\flyway-core\12.4.0\flyway-core-12.4.0.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\tools\jackson\core\jackson-databind\3.1.5\jackson-databind-3.1.5.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\tools\jackson\core\jackson-core\3.1.5\jackson-core-3.1.5.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot\4.1.1\spring-boot-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\spring-core\7.0.9\spring-core-7.0.9.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\commons-logging\commons-logging\1.3.6\commons-logging-1.3.6.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\spring-context\7.0.9\spring-context-7.0.9.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\4.1.1\spring-boot-autoconfigure-4.1.1.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\projectlombok\lombok\1.18.46\lombok-1.18.46.jar
+[DEBUG]  C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-web-server\4.1.1\spring-boot-web-server-4.1.1.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\rajes\salary-management\backend\salary-management\src\main\java
+[DEBUG] Command line options:
+[DEBUG] -d C:\Users\rajes\salary-management\backend\salary-management\target\classes -classpath C:\Users\rajes\salary-management\backend\salary-management\target\classes;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\4.1.1\spring-boot-starter-data-jpa-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter\4.1.1\spring-boot-starter-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-logging\4.1.1\spring-boot-starter-logging-4.1.1.jar;C:\Users\rajes\.m2\repository\ch\qos\logback\logback-classic\1.5.38\logback-classic-1.5.38.jar;C:\Users\rajes\.m2\repository\ch\qos\logback\logback-core\1.5.38\logback-core-1.5.38.jar;C:\Users\rajes\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.25.5\log4j-to-slf4j-2.25.5.jar;C:\Users\rajes\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.5\log4j-api-2.25.5.jar;C:\Users\rajes\.m2\repository\org\slf4j\jul-to-slf4j\2.0.18\jul-to-slf4j-2.0.18.jar;C:\Users\rajes\.m2\repository\jakarta\annotation\jakarta.annotation-api\3.0.0\jakarta.annotation-api-3.0.0.jar;C:\Users\rajes\.m2\repository\org\yaml\snakeyaml\2.6\snakeyaml-2.6.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\4.1.1\spring-boot-starter-jdbc-4.1.1.jar;C:\Users\rajes\.m2\repository\com\zaxxer\HikariCP\7.0.2\HikariCP-7.0.2.jar;C:\Users\rajes\.m2\repository\org\slf4j\slf4j-api\2.0.18\slf4j-api-2.0.18.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-data-jpa\4.1.1\spring-boot-data-jpa-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-data-commons\4.1.1\spring-boot-data-commons-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-persistence\4.1.1\spring-boot-persistence-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\data\spring-data-commons\4.1.1\spring-data-commons-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-hibernate\4.1.1\spring-boot-hibernate-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-jpa\4.1.1\spring-boot-jpa-4.1.1.jar;C:\Users\rajes\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.2.0\jakarta.persistence-api-3.2.0.jar;C:\Users\rajes\.m2\repository\org\hibernate\orm\hibernate-core\7.4.5.Final\hibernate-core-7.4.5.Final.jar;C:\Users\rajes\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\rajes\.m2\repository\org\springframework\spring-orm\7.0.9\spring-orm-7.0.9.jar;C:\Users\rajes\.m2\repository\org\springframework\data\spring-data-jpa\4.1.1\spring-data-jpa-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\spring-aop\7.0.9\spring-aop-7.0.9.jar;C:\Users\rajes\.m2\repository\org\springframework\spring-tx\7.0.9\spring-tx-7.0.9.jar;C:\Users\rajes\.m2\repository\org\springframework\spring-beans\7.0.9\spring-beans-7.0.9.jar;C:\Users\rajes\.m2\repository\org\antlr\antlr4-runtime\4.13.2\antlr4-runtime-4.13.2.jar;C:\Users\rajes\.m2\repository\org\springframework\spring-aspects\7.0.9\spring-aspects-7.0.9.jar;C:\Users\rajes\.m2\repository\org\aspectj\aspectjweaver\1.9.25.1\aspectjweaver-1.9.25.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-jdbc\4.1.1\spring-boot-jdbc-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-sql\4.1.1\spring-boot-sql-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-transaction\4.1.1\spring-boot-transaction-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\spring-jdbc\7.0.9\spring-jdbc-7.0.9.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-flyway\4.1.1\spring-boot-starter-flyway-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-flyway\4.1.1\spring-boot-flyway-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-validation\4.1.1\spring-boot-starter-validation-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-validation\4.1.1\spring-boot-validation-4.1.1.jar;C:\Users\rajes\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\11.0.24\tomcat-embed-el-11.0.24.jar;C:\Users\rajes\.m2\repository\org\hibernate\validator\hibernate-validator\9.1.3.Final\hibernate-validator-9.1.3.Final.jar;C:\Users\rajes\.m2\repository\jakarta\validation\jakarta.validation-api\3.1.1\jakarta.validation-api-3.1.1.jar;C:\Users\rajes\.m2\repository\org\jboss\logging\jboss-logging\3.6.3.Final\jboss-logging-3.6.3.Final.jar;C:\Users\rajes\.m2\repository\com\fasterxml\classmate\1.7.3\classmate-1.7.3.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-webmvc\4.1.1\spring-boot-starter-webmvc-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-jackson\4.1.1\spring-boot-starter-jackson-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-jackson\4.1.1\spring-boot-jackson-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\4.1.1\spring-boot-starter-tomcat-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat-runtime\4.1.1\spring-boot-starter-tomcat-runtime-4.1.1.jar;C:\Users\rajes\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\11.0.24\tomcat-embed-core-11.0.24.jar;C:\Users\rajes\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\11.0.24\tomcat-embed-websocket-11.0.24.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-tomcat\4.1.1\spring-boot-tomcat-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-http-converter\4.1.1\spring-boot-http-converter-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\spring-web\7.0.9\spring-web-7.0.9.jar;C:\Users\rajes\.m2\repository\io\micrometer\micrometer-observation\1.17.1\micrometer-observation-1.17.1.jar;C:\Users\rajes\.m2\repository\io\micrometer\micrometer-commons\1.17.1\micrometer-commons-1.17.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-webmvc\4.1.1\spring-boot-webmvc-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-servlet\4.1.1\spring-boot-servlet-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\spring-webmvc\7.0.9\spring-webmvc-7.0.9.jar;C:\Users\rajes\.m2\repository\org\springframework\spring-expression\7.0.9\spring-expression-7.0.9.jar;C:\Users\rajes\.m2\repository\org\flywaydb\flyway-database-postgresql\12.4.0\flyway-database-postgresql-12.4.0.jar;C:\Users\rajes\.m2\repository\org\flywaydb\flyway-core\12.4.0\flyway-core-12.4.0.jar;C:\Users\rajes\.m2\repository\tools\jackson\core\jackson-databind\3.1.5\jackson-databind-3.1.5.jar;C:\Users\rajes\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\rajes\.m2\repository\tools\jackson\core\jackson-core\3.1.5\jackson-core-3.1.5.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot\4.1.1\spring-boot-4.1.1.jar;C:\Users\rajes\.m2\repository\org\springframework\spring-core\7.0.9\spring-core-7.0.9.jar;C:\Users\rajes\.m2\repository\commons-logging\commons-logging\1.3.6\commons-logging-1.3.6.jar;C:\Users\rajes\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\rajes\.m2\repository\org\springframework\spring-context\7.0.9\spring-context-7.0.9.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\4.1.1\spring-boot-autoconfigure-4.1.1.jar;C:\Users\rajes\.m2\repository\org\projectlombok\lombok\1.18.46\lombok-1.18.46.jar;C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot-web-server\4.1.1\spring-boot-web-server-4.1.1.jar; -sourcepath C:\Users\rajes\salary-management\backend\salary-management\src\main\java; -s C:\Users\rajes\salary-management\backend\salary-management\target\generated-sources\annotations -processorpath C:\Users\rajes\.m2\repository\org\projectlombok\lombok\1.18.46\lombok-1.18.46.jar; -g -parameters -target 1.8 -source 1.8 -encoding UTF-8 -XDuseUnsharedTable=true
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target\classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/rajes/salary-management/backend/salary-management/src/main/java/com/incubyte/salary_management/SalaryManagementApplication.java:[3,32] cannot access org.springframework.boot.SpringApplication
+  bad class file: C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot\4.1.1\spring-boot-4.1.1.jar(org/springframework/boot/SpringApplication.class)
+    class file has wrong version 61.0, should be 52.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[DEBUG] Adding C:\Users\rajes\salary-management\backend\salary-management\target\generated-sources\annotations to the project compile source roots but NOT the actual compile source roots:
+  C:\Users\rajes\salary-management\backend\salary-management\src\main\java
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.834 s
+[INFO] Finished at: 2026-09-12T09:31:31+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile (default-compile) on project salary-management: Compilation failure
+[ERROR] /C:/Users/rajes/salary-management/backend/salary-management/src/main/java/com/incubyte/salary_management/SalaryManagementApplication.java:[3,32] cannot access org.springframework.boot.SpringApplication
+[ERROR]   bad class file: C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot\4.1.1\spring-boot-4.1.1.jar(org/springframework/boot/SpringApplication.class)
+[ERROR]     class file has wrong version 61.0, should be 52.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] 
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile (default-compile) on project salary-management: Compilation failure
+/C:/Users/rajes/salary-management/backend/salary-management/src/main/java/com/incubyte/salary_management/SalaryManagementApplication.java:[3,32] cannot access org.springframework.boot.SpringApplication
+  bad class file: C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot\4.1.1\spring-boot-4.1.1.jar(org/springframework/boot/SpringApplication.class)
+    class file has wrong version 61.0, should be 52.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:306)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:211)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:165)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:157)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:121)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:127)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:294)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:960)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+/C:/Users/rajes/salary-management/backend/salary-management/src/main/java/com/incubyte/salary_management/SalaryManagementApplication.java:[3,32] cannot access org.springframework.boot.SpringApplication
+  bad class file: C:\Users\rajes\.m2\repository\org\springframework\boot\spring-boot\4.1.1\spring-boot-4.1.1.jar(org/springframework/boot/SpringApplication.class)
+    class file has wrong version 61.0, should be 52.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.executeReal (AbstractCompilerMojo.java:1319)
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:708)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:235)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:301)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:211)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:165)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:157)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:121)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:127)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:294)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:960)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
